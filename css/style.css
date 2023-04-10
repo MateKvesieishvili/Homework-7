@@ -109,11 +109,12 @@ nav{
 }
 /* !section 2 */
 .section2{
+    margin-left: 320px;
     justify-content: space-between;
     width: 70%;
     margin-top: 245px;
 }
-.section2_subtitle{
+.section_subtitle{
     font-weight: 600;
     font-size: 75px;
     line-height: 88px;
@@ -153,4 +154,24 @@ nav{
     letter-spacing: -0.05em;
     margin-top: 17px;
     color: #000000;
+}
+/* !section 3 */
+.section3{
+    margin-top: 245px;
+    margin-left: 320px;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 245px;
+}
+.section3_images{
+    display: flex;
+    margin-top: 67px;
+}
+.section3_image1{
+    width: 738px;
+    height: 645px;
+}
+.section3_image2, .section3_image3{
+    width: 522px;
+    height: 310px;
 }
