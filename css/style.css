@@ -175,3 +175,57 @@ nav{
     width: 522px;
     height: 310px;
 }
+/* !Footer */
+footer{
+    height: 378px;
+    width: 100%;
+    background: #262626;
+    margin-top: 245px;
+    padding-top: 60px;
+}
+.footer_subtitle{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer_subtitle_span{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #DCB47A;
+}
+.footer_text{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20.9431px;
+line-height: 130%;
+/* or 27px */
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.8);
+margin-top: 49px;
+margin-bottom: 49px;
+}
+.footer_button{
+    width: 200px;
+    height: 64px;
+    background: #DCB47A;
+    border-radius: 60px;
+    margin: auto 860px;
+}
+.footer_button_text{
+    font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
