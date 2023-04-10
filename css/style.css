@@ -1,0 +1,51 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin-inline: auto;
+}
+header{
+    width: 1920px;
+    background: #262626;
+    padding: 50px 320px;
+    max-width: inherit;
+    width: inherit;
+    position: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.headerUl{
+    display: flex;
+    gap: 68px;
+}
+.header_list:hover{
+    color: #dc7a7a;
+    font-weight: bold;
+
+}
+.header_list{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.home{
+    color: #DCB47A;
+}
+.fa-bag-shopping{
+    color: #FFFFFF;
+    scale: 2;
+}
+.fa-bag-shopping:hover{
+    color: #dc7a7a;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+    font-size: 89px;
+}
